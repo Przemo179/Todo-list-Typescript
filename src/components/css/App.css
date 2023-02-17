@@ -1,0 +1,73 @@
+body {
+    background-color: #2db3ff;
+    color: beige;
+    margin: 5px;
+  }
+  
+  .taskBg {
+    background-color: #0075b8;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 25px;
+    position: relative;
+  }
+  
+  .taskBg div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .taskNum  {
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .taskBg .taskText {
+    width: auto;
+    flex: 1;
+  }
+  .taskBg .finished .taskText {
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .iconsWrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+  } 
+  
+  .taskBg .iconsWrap span {
+    display: inline-block;
+    margin: 0 10px 10px;
+    cursor: pointer;
+    color: lightgreen;
+  }
+  
+  .taskBg .iconsWrap span:hover {
+    display: inline-block;
+    margin: 0 10px 10px;
+    cursor: pointer;
+    color: #8f8b00;
+  }
+  
+  .margin-20  {
+    margin-right: 20px;
+  }
